@@ -26,7 +26,6 @@ nmap <Space>  <Esc>:tabn<CR>
 " 选中刚刚粘贴的行
 nnoremap <leader>v V`]
 
-
 " paste/nopaste 模式下 insert
 nmap pi :set paste<CR>i
 nmap npi :set nopaste<CR>i
