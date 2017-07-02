@@ -1,8 +1,10 @@
 
 let g:author="tingkun"
 let g:snips_author=g:author
-let g:email="z@tingkun.com"
+let g:email="tingkunz@qq.com"
 let g:company="."
+
+nmap ti :AuthorInfoDetect<cr>
 
 
 set nocursorline " don't highlight current line

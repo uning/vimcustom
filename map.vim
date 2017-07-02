@@ -16,6 +16,9 @@ nmap zz <C-w><C-w>
 nmap tt <C-t>
 nmap tg <C-]>
 
+"文件头信息不全
+nmap ti :AuthorInfoDetect<cr>
+
 
 " 在新tab打开当前文件所在的目录的文件
 map nt :tabnew<CR> <ESC>:tabn<CR>:FufFile<CR>
